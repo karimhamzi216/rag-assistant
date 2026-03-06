@@ -1,34 +1,38 @@
----
-title: Assistant RAG Pro
-emoji: 🤖
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: 1.31.0
-app_file: app_rag_advanced.py
-pinned: false
----
-
 # 🤖 Assistant RAG Professionnel
 
 Application de Question-Answering avec RAG (Retrieval-Augmented Generation).
 
-## Fonctionnalités
+## 🚀 Fonctionnalités
 
 - 📁 Upload de documents (PDF, TXT, DOCX)
 - 🔍 Recherche sémantique intelligente
 - 🤖 Réponses générées par Mistral AI
 - 📊 Visualisation des sources
 
-## Technologies
+## 🛠️ Technologies
 
-- LangChain
-- Mistral AI
-- Sentence Transformers
-- Streamlit
+- **LangChain** : Framework AI
+- **Mistral AI** : LLM open-source
+- **Sentence Transformers** : Embeddings
+- **Streamlit** : Interface web
 
-## Utilisation
+## 📦 Installation Locale
+```bash
+pip install -r requirements.txt
+streamlit run app_rag_advanced.py
+```
 
-1. Uploadez vos documents
-2. Posez vos questions
-3. Obtenez des réponses avec sources
+## 🔑 Configuration
+
+Créer un fichier `.streamlit/secrets.toml` :
+```toml
+MISTRAL_API_KEY = "votre-clé-ici"
+```
+
+## 🌐 Demo en Ligne
+
+[Lien vers l'application]
+
+---
+
+Créé avec ❤️ par [Votre Nom]

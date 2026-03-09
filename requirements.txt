@@ -3,5 +3,3 @@ sentence-transformers
 langchain-mistralai
 langchain-core
 scikit-learn
-pypdf
-python-docx

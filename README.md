@@ -35,4 +35,4 @@ MISTRAL_API_KEY = "votre-clé-ici"
 
 ---
 
-Créé avec ❤️ par [Votre Nom]
+Créé avec ❤️ par [Karim HAMZI]
